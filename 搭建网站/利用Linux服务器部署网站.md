@@ -30,15 +30,17 @@
 
 ​             `passwd siteadmin`
 
-	> 4.执行如下命令，授予 **siteadmin** 用户权限：	
+> 4.执行如下命令，授予 **siteadmin** 用户权限：	
 
 ​		`chown  -Rf  siteadmin.siteadmin  /var/www/html`
 
 > 5.执行如下命令，启动Apache服务：
 
-`		service httpd start`
+`			service httpd start`
 
-	>6 . 本地打开浏览器，并输入 **Linux服务器** 的 **公网IP** 。若页面显示 **Apache 2 Test Page，**则证明Apache已部署成功。
+> 6 . 本地打开浏览器，并输入 **Linux服务器** 的 **公网IP** 。若页面显示 **Apache 2 Test Page，**则证明Apache已部署成功。
 
 ![img](https://edu.aliyun.com/lab/files/courses/129136057c2a4d50af22490b5ce8f878/sections/ba70fc3a856948459ee8792994f23447/content/images/course-129136057c2a4d50af22490b5ce8f878-section-ba70fc3a856948459ee8792994f23447-content-image-1492760637682-xLHx0K)
+
+
 
